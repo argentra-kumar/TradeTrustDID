@@ -1,27 +1,27 @@
 {
-  "id": "did:web:did.trustvc.io",
-  "verificationMethod": [
-    {
-      "type": "Bls12381G2Key2020",
-      "id": "did:web:did.trustvc.io#keys-1",
-      "controller": "did:web:did.trustvc.io",
-      "publicKeyBase58": "oRfEeWFresvhRtXCkihZbxyoi2JER7gHTJ5psXhHsdCoU1MttRMi3Yp9b9fpjmKh7bMgfWKLESiK2YovRd8KGzJsGuamoAXfqDDVhckxuc9nmsJ84skCSTijKeU4pfAcxeJ"
-    }
-  ],
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/bls12381-2020/v1"
-  ],
-  "authentication": [
-    "did:web:did.trustvc.io#keys-1"
-  ],
-  "assertionMethod": [
-    "did:web:did.trustvc.io#keys-1"
-  ],
-  "capabilityInvocation": [
-    "did:web:did.trustvc.io#keys-1"
-  ],
-  "capabilityDelegation": [
-    "did:web:did.trustvc.io#keys-1"
-  ]
-}
+    "id": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main",
+    "verificationMethod": [
+      {
+        "type": "Bls12381G2Key2020",
+        "id": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main#keys-1",
+        "controller": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main",
+        "publicKeyBase58": "ms419Prx8ZwSqJVT44mjsLSozDAcrGrAjKnWbU26KRsKY2xcH53tnrX7H3m9zcxW6amMkbTQ9vzUyYvJWhxg5mqdgR7RFEAT9XRcg6DhbYqkFjBmJ7swST4RCDMWNwnffx5"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/bls12381-2020/v1"
+    ],
+    "authentication": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main#keys-1"
+    ],
+    "assertionMethod": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main#keys-1"
+    ],
+    "capabilityInvocation": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main#keys-1"
+    ],
+    "capabilityDelegation": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main#keys-1"
+    ]
+  }
