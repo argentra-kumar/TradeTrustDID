@@ -1,21 +1,27 @@
 {
-    "id": "did:web:example.com",
-    "verificationMethod": [ [Object] ],
-    '@context': [
-      'https://www.w3.org/ns/did/v1',
-      'https://w3id.org/security/suites/bls12381-2020/v1'
-    ],
-    authentication: [ 'did:web:example.com#keys-1' ],
-    assertionMethod: [ 'did:web:example.com#keys-1' ],
-    capabilityInvocation: [ 'did:web:example.com#keys-1' ],
-    capabilityDelegation: [ 'did:web:example.com#keys-1' ]
-  },
-  didKeyPairs: {
-    id: 'did:web:example.com#keys-1',
-    type: 'Bls12381G2Key2020',
-    controller: 'did:web:example.com',
-    seedBase58: '6DD625bJ3xUmv5jVpwu6uhc4YyBBg8GJVkZYkGhVS38K',
-    privateKeyBase58: 'HVKt6h4ousenu2cSQWmf655Tmi2wFiZyzKW45ZmW1th',
-    publicKeyBase58: 'nYE5zTDHhgy2VkMR9p2EaiyVJaRFDMuB8mrQd4XtXPq6qjJJJjeMEt12uuznwzWYggnmbDyRcUhkN1f1DT9ysCTEqMxM1cMK9bJji2eQwwbYm8EGeo2uEnyXnX8FPCWKtPo'
-  }
+  "id": "did:web:did.trustvc.io",
+  "verificationMethod": [
+    {
+      "type": "Bls12381G2Key2020",
+      "id": "did:web:did.trustvc.io#keys-1",
+      "controller": "did:web:did.trustvc.io",
+      "publicKeyBase58": "oRfEeWFresvhRtXCkihZbxyoi2JER7gHTJ5psXhHsdCoU1MttRMi3Yp9b9fpjmKh7bMgfWKLESiK2YovRd8KGzJsGuamoAXfqDDVhckxuc9nmsJ84skCSTijKeU4pfAcxeJ"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/bls12381-2020/v1"
+  ],
+  "authentication": [
+    "did:web:did.trustvc.io#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:did.trustvc.io#keys-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:did.trustvc.io#keys-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:did.trustvc.io#keys-1"
+  ]
 }
