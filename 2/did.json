@@ -1,21 +1,27 @@
 {
-    "id": "did:web:example.com",
-    "verificationMethod": [ [Object] ],
-    '@context': [
-      'https://www.w3.org/ns/did/v1',
-      'https://w3id.org/security/suites/bls12381-2020/v1'
+    "id": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2",
+    "verificationMethod": [
+      {
+        "type": "Bls12381G2Key2020",
+        "id": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1",
+        "controller": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2",
+        "publicKeyBase58": "p5aF6UATNS3ViUqB3aQRxZCTDA6hbPfEKJydS2ZxBdGDjaKgzcbJh5hGJAzfacGZFGnLpzWcTjnAhz5okRn4c3LUeWNp8znPwY7ZcwyQLPfS6RHprFYtk7BhJKETWWpCm4h"
+      }
     ],
-    authentication: [ 'did:web:example.com#keys-1' ],
-    assertionMethod: [ 'did:web:example.com#keys-1' ],
-    capabilityInvocation: [ 'did:web:example.com#keys-1' ],
-    capabilityDelegation: [ 'did:web:example.com#keys-1' ]
-  },
-  didKeyPairs: {
-    id: 'did:web:example.com#keys-1',
-    type: 'Bls12381G2Key2020',
-    controller: 'did:web:example.com',
-    seedBase58: '6DD625bJ3xUmv5jVpwu6uhc4YyBBg8GJVkZYkGhVS38K',
-    privateKeyBase58: 'HVKt6h4ousenu2cSQWmf655Tmi2wFiZyzKW45ZmW1th',
-    publicKeyBase58: 'nYE5zTDHhgy2VkMR9p2EaiyVJaRFDMuB8mrQd4XtXPq6qjJJJjeMEt12uuznwzWYggnmbDyRcUhkN1f1DT9ysCTEqMxM1cMK9bJji2eQwwbYm8EGeo2uEnyXnX8FPCWKtPo'
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/bls12381-2020/v1"
+    ],
+    "authentication": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+    ],
+    "assertionMethod": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+    ],
+    "capabilityInvocation": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+    ],
+    "capabilityDelegation": [
+      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+    ]
   }
-}
