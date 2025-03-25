@@ -1,11 +1,11 @@
 {
-    "id": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2",
+    "id": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2",
     "verificationMethod": [
       {
         "type": "Bls12381G2Key2020",
-        "id": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1",
-        "controller": "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2",
-        "publicKeyBase58": "p5aF6UATNS3ViUqB3aQRxZCTDA6hbPfEKJydS2ZxBdGDjaKgzcbJh5hGJAzfacGZFGnLpzWcTjnAhz5okRn4c3LUeWNp8znPwY7ZcwyQLPfS6RHprFYtk7BhJKETWWpCm4h"
+        "id": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2#keys-1",
+        "controller": "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2",
+        "publicKeyBase58": "oihmxmKa53NHjBiGk4zQDXtMgtSh15EREt44To9vPwWrg1quc2hMESDvG56SeBAb7s3UFXpZZeiwx3kM5VSvBK221MyKcWzx9nsPyN6t524EXv2LtC8JWV1JyX1FwEkRLbf"
       }
     ],
     "@context": [
@@ -13,15 +13,15 @@
       "https://w3id.org/security/suites/bls12381-2020/v1"
     ],
     "authentication": [
-      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2#keys-1"
     ],
     "assertionMethod": [
-      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2#keys-1"
     ],
     "capabilityInvocation": [
-      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2#keys-1"
     ],
     "capabilityDelegation": [
-      "did:web:github.com:argentra-kumar:TradeTrustDID:tree:main:2#keys-1"
+      "did:web:github.com:argentra-kumar:TradeTrustDID:blob:main:2#keys-1"
     ]
   }
