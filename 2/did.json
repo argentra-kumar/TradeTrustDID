@@ -1,27 +1,31 @@
 {
-  "id": "did:web:argentra-kumar.github.io:TradeTrustDID:2",
-  "verificationMethod": [
-    {
-      "type": "Bls12381G2Key2020",
-      "id": "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1",
-      "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:2",
-      "publicKeyBase58": "oihmxmKa53NHjBiGk4zQDXtMgtSh15EREt44To9vPwWrg1quc2hMESDvG56SeBAb7s3UFXpZZeiwx3kM5VSvBK221MyKcWzx9nsPyN6t524EXv2LtC8JWV1JyX1FwEkRLbf"
-    }
-  ],
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/bls12381-2020/v1"
-  ],
-  "authentication": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1"
-  ],
-  "assertionMethod": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1"
-  ],
-  "capabilityInvocation": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1"
-  ],
-  "capabilityDelegation": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1"
-  ]
-}
+    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:2",
+    "verificationMethod": [      
+      {
+        "type": "Bls12381G2Key2020",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-2",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:2",
+        "publicKeyBase58": "22mLyVfUbgdffwYJZued776kZtmWDSpsQAWgzFGx3YTghXvrYA7qeQVPytzKVAZfiiKpn8oztgJNjTLpRa5HncYbv79yrmjazjxm4hdJj32TiFu5aM55gD7b1rVWfu6Cf4DG"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/bls12381-2020/v1"
+    ],
+    "authentication": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-2"
+    ],
+    "assertionMethod": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-2"
+    ],
+    "capabilityInvocation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-2"
+    ],
+    "capabilityDelegation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:2#keys-2"
+    ]
+  }
