@@ -1,1 +1,45 @@
 
+{
+  "@context": [
+    {
+      "@version": 1.1
+    },
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+      "porolisDetails": {
+        "@id": "https://schemata.openattestation.com/vocab/#porolisDetails",
+        "@context": {
+          "reportNo": "xsd:string",
+          "reportDate": "xsd:string",
+          "itemImage": "xsd:string",
+          "itemImageTitle": "xsd:string",
+          "fingerprintUGIN": "xsd:string",
+          "species": "xsd:string",
+          "shape": "xsd:string",
+          "cut": "xsd:string",
+          "colorPrimary": "xsd:string",
+          "colorSecondary": "xsd:string",
+          "colorIntensity": "xsd:string",
+          "specialColorDescriptor": "xsd:string",
+          "weight": "xsd:string",
+          "dimensions": "xsd:string",
+          "treatment": "xsd:string",
+          "clarity": "xsd:string",
+          "origin": "xsd:string",
+          "location": "xsd:string"
+        }
+      },
+      "links": {
+        "@id": "https://schemata.openattestation.com/vocab/#links",
+        "@context": {
+          "self": {
+            "@id": "https://schemata.openattestation.com/vocab/#self",
+            "@context": {
+              "href": "xsd:string"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
