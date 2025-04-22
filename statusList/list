@@ -22,7 +22,7 @@
       "type": "BbsBlsSignature2020",
       "created": "2025-04-22T08:54:51Z",
       "proofPurpose": "assertionMethod",
-      "proofValue": "ih6M16edNxAwwBH0Q/o1CpAjos9WwiL6JsDVcOeTs0qfsj1l6wK53F/S/Q62PJRJYUHlKfzccE4m7waZyoLEkBLFiK2g54Q2i+CdtYBgDdkUDsoULSBMcH1MwGHwdjfXpldFNFrHFx/IAvLVniyeMQ==",
+      "proofValue": "pFFVNxaBxLtrIQx6TJhJI5CKdCjE6YrV+vRQrOaQOps7b3cdfydeL1/sba0SgRgmMKVg9X44OT7IyqxonIH7xLuNJjBkG7KYma9urLMBCo4x5JoTWPaG1p7URXapIpy1ng+avITVXJin9XQoxPxyNA==",
       "verificationMethod": "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
     }
   }
