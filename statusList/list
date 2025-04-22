@@ -1,4 +1,4 @@
- {
+{
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/bbs/v1",
@@ -9,20 +9,20 @@
       "StatusList2021Credential"
     ],
     "issuer": "did:web:argentra-kumar.github.io:TradeTrustDID:3",
-    "issuanceDate": "2025-04-22T08:22:36.353Z",
+    "issuanceDate": "2025-04-22T08:40:25.473Z",
     "validFrom": "2025-04-22T08:22:35.718Z",
     "credentialSubject": {
-      "id": "https://argentra-kumar.github.io/TradeTrustDID/statusList#list",
+      "id": "https://argentra-kumar.github.io/TradeTrustDID/statusList/list#list",
       "type": "StatusList2021",
       "statusPurpose": "revocation",
-      "encodedList": "H4sIAAAAAAAAA-3OMQ0AAAgDsOHfNBp2kZBWQRMAAAAAAAAAAAAAAL6Z6wAAAAAAtQVQdb5gAEAAAA"
+      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA"
     },
-    "id": "urn:bnid:_:01965c97-8646-7aa2-a2e5-a6fc53b7a01e",
+    "id": "urn:bnid:_:01965ca7-d687-7bbb-a2f8-46f3630e713e",
     "proof": {
       "type": "BbsBlsSignature2020",
-      "created": "2025-04-22T08:22:37Z",
+      "created": "2025-04-22T08:40:26Z",
       "proofPurpose": "assertionMethod",
-      "proofValue": "ogBAxXSljmuAnJrDQGRmfigd9POhgR2aY18j6u+jhJgYfu8PCjqvFYMsCCnIxR3oYUHlKfzccE4m7waZyoLEkBLFiK2g54Q2i+CdtYBgDdkUDsoULSBMcH1MwGHwdjfXpldFNFrHFx/IAvLVniyeMQ==",
+      "proofValue": "r7D8lvNfFTs/7tVjEnoFf9DNS9m5ziR7UClPnzUxVI1Q+jZSXhqKEPDpGnrbiEjXYUHlKfzccE4m7waZyoLEkBLFiK2g54Q2i+CdtYBgDdkUDsoULSBMcH1MwGHwdjfXpldFNFrHFx/IAvLVniyeMQ==",
       "verificationMethod": "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
     }
   }
