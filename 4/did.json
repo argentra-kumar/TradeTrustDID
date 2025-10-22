@@ -1,1 +1,28 @@
 
+{
+  "id": "did:web:argentra-kumar.github.io:TradeTrustDID:4",
+  "verificationMethod": [
+    {
+      "type": "Bls12381G2Key2020",
+      "id": "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1",
+      "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:4",
+      "publicKeyBase58": "nMAwTzBFgWsTtRtBeg8DjJM2r6pT9atPzaG8t4Yxyyfj2u4MPL7gru19GeDe4rrhRgnefegUid24gkCkNGotgrwXtrTdagUcQmV1evMuHrouWCbv2nm9NPB89DjvARp8hiC"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/bls12381-2020/v1"
+  ],
+  "authentication": [
+    "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1"
+  ]
+}
