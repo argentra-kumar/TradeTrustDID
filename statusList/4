@@ -1,2 +1,28 @@
-
-s
+ {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/bbs/v1",
+      "https://w3id.org/vc/status-list/2021/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "StatusList2021Credential"
+    ],
+    "issuer": "did:web:argentra-kumar.github.io:TradeTrustDID:4",
+    "issuanceDate": "2025-10-23T01:37:15.829Z",
+    "validFrom": "2025-10-23T01:37:15.489Z",
+    "credentialSubject": {
+      "id": "https://argentra-kumar.github.io/TradeTrustDID/statusList/4#list",
+      "type": "StatusList2021",
+      "statusPurpose": "revocation",
+      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA"
+    },
+    "id": "urn:bnid:_:019a0eb6-8c39-755c-b2b7-4893ce225913",
+    "proof": {
+      "type": "BbsBlsSignature2020",
+      "created": "2025-10-23T01:37:16Z",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "hbOc84Ny3D1DyckYFFAJTT9ZajJnPbGjlUm2yaIYVwZdDsXP2QgWuLy5f782v9/ZYUHlKfzccE4m7waZyoLEkBLFiK2g54Q2i+CdtYBgDdkUDsoULSBMcH1MwGHwdjfXpldFNFrHFx/IAvLVniyeMQ==",
+      "verificationMethod": "did:web:argentra-kumar.github.io:TradeTrustDID:4#keys-1"
+    }
+  }
