@@ -1,27 +1,37 @@
 {
-  "id": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd",
-  "verificationMethod": [
-    {
-      "type": "Multikey",
-      "id": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
-      "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd",
-      "publicKeyMultibase": "zDnaev28tBkJXgTJeQufEsqQw8piNiKzwwhrBu5BuseQjFdhM"
-    }
-  ],
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/multikey/v1"
-  ],
-  "authentication": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1"
-  ],
-  "assertionMethod": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1"
-  ],
-  "capabilityInvocation": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1"
-  ],
-  "capabilityDelegation": [
-    "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1"
-  ]
-}
+    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd",
+    "verificationMethod": [
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd",
+        "publicKeyMultibase": "zDnaev28tBkJXgTJeQufEsqQw8piNiKzwwhrBu5BuseQjFdhM"
+      },
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-2",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:vctd",
+        "publicKeyMultibase": "zDnaeeTzUJxMtbZ6kfMeAxV44Wkg6EM2CfsZik1PU2xWVbAzM"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/multikey/v1"
+    ],
+    "authentication": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-2"
+    ],
+    "assertionMethod": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-2"
+    ],
+    "capabilityInvocation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-2"
+    ],
+    "capabilityDelegation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:vctd#keys-2"
+    ]
+  }
