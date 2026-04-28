@@ -1,5 +1,4 @@
-
-{
+ {
     "id": "did:web:argentra-kumar.github.io:TradeTrustDID:3",
     "verificationMethod": [
       {
@@ -7,22 +6,33 @@
         "id": "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1",
         "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:3",
         "publicKeyBase58": "23XjcNqZFjURZQq6F5RHFWWKfQM1FrRkSv576FstVC2DmNxuXTYFRE26FthQPZdMbU96jWC7Ce3cR7LihUrFp3LXWpG25Wr9WedTeod4gqMkTAd9jhWk9LK2s8NWsv77UQGy"
+      },
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-2",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:3",
+        "publicKeyMultibase": "zDnaeuKvf7EELnqx7AuiDZAnrGnM38UqLfM9qZppwo7UBoPoi"
       }
     ],
     "@context": [
       "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/suites/bls12381-2020/v1"
+      "https://w3id.org/security/suites/bls12381-2020/v1",
+      "https://w3id.org/security/multikey/v1"
     ],
     "authentication": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-2"
     ],
     "assertionMethod": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-2"
     ],
     "capabilityInvocation": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-2"
     ],
     "capabilityDelegation": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:3#keys-2"
     ]
   }
