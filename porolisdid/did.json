@@ -1,1 +1,27 @@
-
+ {
+    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid",
+    "verificationMethod": [
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid",
+        "publicKeyMultibase": "zDnaey33eabFWWZEWpT5jGrhmcha779zKNcXPneC743S8FpiY"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/multikey/v1"
+    ],
+    "authentication": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1"
+    ],
+    "assertionMethod": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1"
+    ],
+    "capabilityInvocation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1"
+    ],
+    "capabilityDelegation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1"
+    ]
+  }
