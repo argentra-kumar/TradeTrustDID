@@ -1,29 +1,71 @@
 {
-  "@context": [
-    {
-      "@version": 1.1
-    },
-    "https://www.w3.org/ns/odrl.jsonld",
-    {
-      "reportNo": "xsd:string",
-      "reportDate": "xsd:string",
-      "itemImage": "xsd:string",
-      "itemImageTitle": "xsd:string",
-      "fingerprintUGIN": "xsd:string",
-      "species": "xsd:string",
-      "shape": "xsd:string",
-      "cut": "xsd:string",
-      "colorPrimary": "xsd:string",
-      "colorSecondary": "xsd:string",
-      "colorIntensity": "xsd:string",
-      "specialColorDescriptor": "xsd:string",
-      "weight": "xsd:string",
-      "dimensions": "xsd:string",
-      "treatment": "xsd:string",
-      "clarity": "xsd:string",
-      "origin": "xsd:string",
-      "location": "xsd:string",
-      "media": "xsd:string"
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "PorolisReport": {
+      "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#PorolisReport",
+      "@context": {
+        "@protected": true,
+
+        "reportNo": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#reportNo"
+        },
+        "reportDate": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#reportDate"
+        },
+        "itemImage": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#itemImage"
+        },
+        "itemImageTitle": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#itemImageTitle"
+        },
+        "fingerprintUGIN": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#fingerprintUGIN"
+        },
+        "species": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#species"
+        },
+        "shape": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#shape"
+        },
+        "cut": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#cut"
+        },
+        "colorPrimary": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#colorPrimary"
+        },
+        "colorSecondary": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#colorSecondary"
+        },
+        "colorIntensity": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#colorIntensity"
+        },
+        "specialColorDescriptor": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#specialColorDescriptor"
+        },
+        "weight": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#weight"
+        },
+        "dimensions": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#dimensions"
+        },
+        "treatment": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#treatment"
+        },
+        "clarity": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#clarity"
+        },
+        "origin": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#origin"
+        },
+        "location": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#location"
+        },
+        "media": {
+          "@id": "https://raw.githubusercontent.com/argentra-kumar/TradeTrustDID/main/porolis/transferablea.json#media"
+        }
+      }
     }
-  ]
+  }
 }
