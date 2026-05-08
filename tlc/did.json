@@ -1,1 +1,28 @@
 
+{
+    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc",
+    "verificationMethod": [
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc",
+        "publicKeyMultibase": "zDnaezgWLQR9bLQUnUKgr4oojf8a8jHN2yeDa93sEXkAR5Csq"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/multikey/v1"
+    ],
+    "authentication": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+    ],
+    "assertionMethod": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+    ],
+    "capabilityInvocation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+    ],
+    "capabilityDelegation": [
+      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+    ]
+  }
