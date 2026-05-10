@@ -1,12 +1,17 @@
-
 {
-    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc",
+    "id": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid",
     "verificationMethod": [
       {
         "type": "Multikey",
-        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1",
-        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc",
-        "publicKeyMultibase": "zDnaezgWLQR9bLQUnUKgr4oojf8a8jHN2yeDa93sEXkAR5Csq"
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid",
+        "publicKeyMultibase": "zDnaey33eabFWWZEWpT5jGrhmcha779zKNcXPneC743S8FpiY"
+      },
+      {
+        "type": "Multikey",
+        "id": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-2",
+        "controller": "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid",
+        "publicKeyMultibase": "zDnaekc1cqnwNtcM6z4cgcQdZzEfD8v4FurVjBHs3S2AVPJGB"
       }
     ],
     "@context": [
@@ -14,15 +19,19 @@
       "https://w3id.org/security/multikey/v1"
     ],
     "authentication": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-2"
     ],
     "assertionMethod": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-2"
     ],
     "capabilityInvocation": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-2"
     ],
     "capabilityDelegation": [
-      "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-1"
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-1",
+      "did:web:argentra-kumar.github.io:TradeTrustDID:porolisdid#keys-2"
     ]
   }
