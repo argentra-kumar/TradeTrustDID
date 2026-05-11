@@ -1,1 +1,37 @@
 
+{
+  "statusListId": "b835380f-ebcd-439c-bcbb-09c6473c25a3",
+  "statusListUrl": "https://argentra-kumar.github.io/TradeTrustDID/statusList/tlc/2",
+  "issuerId": "6a012d71f5f396a50bf672a0",
+  "walletId": "a11ebaba-dd5a-4381-8e83-f865dfb3501b",
+  "nextIndex": 0,
+  "credential": {
+    "@context": [
+      "https://www.w3.org/ns/credentials/v2",
+      "https://w3id.org/security/data-integrity/v2"
+    ],
+    "id": "urn:uuid:019e14ad-595f-722d-b3b1-86ec12c8f86b",
+    "type": [
+      "VerifiableCredential",
+      "BitstringStatusListCredential"
+    ],
+    "issuer": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc",
+    "validFrom": "2026-05-11T01:36:05.165Z",
+    "credentialSubject": {
+      "id": "https://argentra-kumar.github.io/TradeTrustDID/statusList/tlc/2#list",
+      "type": "BitstringStatusList",
+      "statusPurpose": "revocation",
+      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA"
+    },
+    "proof": {
+      "type": "DataIntegrityProof",
+      "created": "2026-05-11T01:36:05Z",
+      "verificationMethod": "did:web:argentra-kumar.github.io:TradeTrustDID:tlc#keys-2",
+      "cryptosuite": "ecdsa-sd-2023",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "u2V0AhVhAzkGdvkeNMqUE2m6I3qNDBR6xcA24FRh6Z1e6Dee7cEKg8-3U92263rkLbALEMKSEQbHW1ZhyFxVahUq24118l1gjgCQC0abvD4hbIWIJuWiPhcl50Z95BI2OQXuBDWBXcNsncTdYINfgqmG_Ztkl7R3A34xrf1rrXODUlyk8ofEw7iwiERD3hFhA2s_uGmapUCrA__ATY9xdHZxBWQ-Fquc6_oo90lvMCyFTGc4cbkCvhFBSTyqmVwTTX9YkVWzgo3qhLHzQBL5o3FhAqaUqnC9pnoVCRNlDjdOTIkjEVTZmS41abzKS7jZqExk8VrFIUiAnaB9cHl8rXJpz0KZPiztmt1Z9RRLhr6oFVVhAHmSJur9Uz1xkH5Z7WTNpakF1tF5Xlb2xsO92J9UVw6XvUpiyn152YRvX7vDTJtL1cHX6fE0901kPWQxh2qXz2VhAX5MB5AYhSHrlp3I6LFShD2qWHbLh6atNG5cZCaCaiLmLJ3p2Ie5U8l6vaC0a_vl2DOYJiucTtN-kMLRGxnJbY4JnL2lzc3VlcmovdmFsaWRGcm9t"
+    }
+  },
+  "version": 1,
+  "createdAt": "2026-05-11T01:36:05.518Z"
+}
