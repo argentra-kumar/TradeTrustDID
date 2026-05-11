@@ -1,1 +1,20 @@
 
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "JupytonWarehouseReceipt": {
+      "@id": "https://example.com/terms#JupytonWarehouseReceipt",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "receiptNumber": {
+          "@id": "https://example.com/terms#receiptNumber"
+        },
+        "commodity": {
+          "@id": "https://example.com/terms#commodity"
+        }
+      }
+    }
+  }
+}
