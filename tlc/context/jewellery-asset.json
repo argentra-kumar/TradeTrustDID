@@ -19,7 +19,7 @@
         "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
         "valuationDateAndSource": { "@id": "https://your-domain.com/terms#valuationDateAndSource" },
         "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" },
-        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" },
+        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" }
 
 
       }
