@@ -9,7 +9,8 @@
       "@context": {
         "@protected": true,
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
-        "client": { "@id": "https://your-domain.com/terms#client" }
+        "client": { "@id": "https://your-domain.com/terms#client" },
+         "title": { "@id": "https://your-domain.com/terms#title" }
       }
     }
   }
