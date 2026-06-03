@@ -10,7 +10,18 @@
         "@protected": true,
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
         "client": { "@id": "https://your-domain.com/terms#client" },
-         "title": { "@id": "https://your-domain.com/terms#title" }
+        "category": { "@id": "https://your-domain.com/terms#category" },
+        "title": { "@id": "https://your-domain.com/terms#title" },
+        "brand": { "@id": "https://your-domain.com/terms#brand" },
+        "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
+        "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
+        "purchasePriceAndCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" },
+        "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
+        "valuationDateAndSource": { "@id": "https://your-domain.com/terms#valuationDateAndSource" },
+        "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" },
+        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" },
+
+
       }
     }
   }
