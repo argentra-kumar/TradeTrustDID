@@ -10,7 +10,8 @@
         "@protected": true,
 
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
-        "client": { "@id": "https://your-domain.com/terms#client" }
+        "client": { "@id": "https://your-domain.com/terms#client" },
+         "category": { "@id": "https://your-domain.com/terms#category" }
        
       }
     }
