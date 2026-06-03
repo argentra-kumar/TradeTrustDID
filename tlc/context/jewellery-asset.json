@@ -3,8 +3,8 @@
     "@version": 1.1,
     "@protected": true,
 
-    "JewelleryAsset": {
-      "@id": "https://your-domain.com/terms#JewelleryAsset",
+    "jewellery": {
+      "@id": "https://your-domain.com/terms#jewellery",
       "@type": "@id",
       "@context": {
         "@protected": true,
