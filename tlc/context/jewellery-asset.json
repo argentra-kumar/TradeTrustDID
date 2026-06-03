@@ -8,7 +8,6 @@
       "@type": "@id",
       "@context": {
         "@protected": true,
-
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
         "client": { "@id": "https://your-domain.com/terms#client" }
       }
