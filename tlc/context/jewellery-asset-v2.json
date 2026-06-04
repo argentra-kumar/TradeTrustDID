@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "jewellery": {
+      "@id": "https://your-domain.com/terms#jewellery",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "assetId": { "@id": "https://your-domain.com/terms#assetId" },
+        "client": { "@id": "https://your-domain.com/terms#client" },
+        "category": { "@id": "https://your-domain.com/terms#category" },
+        "title": { "@id": "https://your-domain.com/terms#title" },
+        "brand": { "@id": "https://your-domain.com/terms#brand" },
+        "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
+        "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
+        "purchasePriceAndCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" },
+        "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
+        "valuationDateAndSource": { "@id": "https://your-domain.com/terms#valuationDateAndSource" },
+        "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" },
+        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" },
+        "condition": { "@id": "https://your-domain.com/terms#condition" },
+        "storageLocation": { "@id": "https://your-domain.com/terms#storageLocation" },
+        "custodyType": { "@id": "https://your-domain.com/terms#custodyType" },
+        "vcStatus": { "@id": "https://your-domain.com/terms#vcStatus" },
+        "tdStatus": { "@id": "https://your-domain.com/terms#tdStatus" },
+        "beneficiary": { "@id": "https://your-domain.com/terms#beneficiary" },
+        "setId": { "@id": "https://your-domain.com/terms#setId" },
+        "invoiceNumber": { "@id": "https://your-domain.com/terms#invoiceNumber" },
+        "comments": { "@id": "https://your-domain.com/terms#comments" },
+        "boxReceiptLocation": { "@id": "https://your-domain.com/terms#boxReceiptLocation" },
+        "boxReceiptMatchingCode": { "@id": "https://your-domain.com/terms#boxReceiptMatchingCode" },
+        "createdAtAndBy": { "@id": "https://your-domain.com/terms#createdAtAndBy" },
+        "lastUpdatedAtAndBy": { "@id": "https://your-domain.com/terms#lastUpdatedAtAndBy" },
+        "lastReviewedAtAndBy": { "@id": "https://your-domain.com/terms#lastReviewedAtAndBy" },
+        "lifecycleStatus": { "@id": "https://your-domain.com/terms#lifecycleStatus" },
+        "stoneType": { "@id": "https://your-domain.com/terms#stoneType" },
+        "carat": { "@id": "https://your-domain.com/terms#carat" },
+        "cut": { "@id": "https://your-domain.com/terms#cut" },
+        "clarity": { "@id": "https://your-domain.com/terms#clarity" },
+        "colour": { "@id": "https://your-domain.com/terms#colour" },
+        "metal": { "@id": "https://your-domain.com/terms#metal" },
+        "hallmark": { "@id": "https://your-domain.com/terms#hallmark" },
+        "labCertificate": { "@id": "https://your-domain.com/terms#labCertificate" },
+        "itemNumberOrSku": { "@id": "https://your-domain.com/terms#itemNumberOrSku" },
+        "distinguishingCharacteristics": { "@id": "https://your-domain.com/terms#distinguishingCharacteristics" },
+        "partOfASet": { "@id": "https://your-domain.com/terms#partOfASet" }
+      }
+    }
+  }
+}
