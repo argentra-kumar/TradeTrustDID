@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "PCLBillOfLadingCarrier": {
+      "@id": "https://example.com/terms#PCLBillOfLadingCarrier",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+
+        "blNumber": {
+          "@id": "https://example.com/terms#blNumber"
+        },
+
+        "shipper": {
+          "@id": "https://example.com/terms#shipper"
+        },
+
+        "consignee": {
+          "@id": "https://example.com/terms#consignee"
+        },
+
+        "notifyParty": {
+          "@id": "https://example.com/terms#notifyParty"
+        },
+
+        "preCarriageBy": {
+          "@id": "https://example.com/terms#preCarriageBy"
+        },
+
+        "placeOfReceipt": {
+          "@id": "https://example.com/terms#placeOfReceipt"
+        },
+
+        "vessel": {
+          "@id": "https://example.com/terms#vessel"
+        },
+
+        "portOfLoading": {
+          "@id": "https://example.com/terms#portOfLoading"
+        },
+
+        "portOfDischarge": {
+          "@id": "https://example.com/terms#portOfDischarge"
+        },
+
+        "placeOfDelivery": {
+          "@id": "https://example.com/terms#placeOfDelivery"
+        },
+
+        "freightPayableAt": {
+          "@id": "https://example.com/terms#freightPayableAt"
+        },
+
+        "numberOfOriginalBL": {
+          "@id": "https://example.com/terms#numberOfOriginalBL"
+        },
+
+        "packages": {
+          "@id": "https://example.com/terms#packages",
+          "@container": "@set",
+          "@context": {
+            "@protected": true,
+
+            "marksAndNumbers": {
+              "@id": "https://example.com/terms#marksAndNumbers"
+            },
+
+            "packageDescription": {
+              "@id": "https://example.com/terms#packageDescription"
+            },
+
+            "grossWeightKg": {
+              "@id": "https://example.com/terms#grossWeightKg"
+            },
+
+            "measurementM3": {
+              "@id": "https://example.com/terms#measurementM3"
+            }
+          }
+        },
+
+        "deliveryAgent": {
+          "@id": "https://example.com/terms#deliveryAgent"
+        },
+
+        "placeAndDateOfIssue": {
+          "@id": "https://example.com/terms#placeAndDateOfIssue"
+        },
+
+        "signedOnBehalfOfCarrier": {
+          "@id": "https://example.com/terms#signedOnBehalfOfCarrier"
+        }
+      }
+    }
+  }
+}
