@@ -7,7 +7,7 @@
       "@type": "@id",
       "@context": {
         "@protected": true,
-        "assetID": { "@id": "https://your-domain.com/terms#assetId" },
+        "assetId": { "@id": "https://your-domain.com/terms#assetId" },
         "client": { "@id": "https://your-domain.com/terms#client" },
         "category": { "@id": "https://your-domain.com/terms#category" },
         "title": { "@id": "https://your-domain.com/terms#title" },
@@ -33,7 +33,7 @@
         "lastUpdatedAtBy": { "@id": "https://your-domain.com/terms#lastUpdatedAtAndBy" },
         "lastReviewedAtBy": { "@id": "https://your-domain.com/terms#lastReviewedAtAndBy" },
         "lifecycleStatus": { "@id": "https://your-domain.com/terms#lifecycleStatus" },
-        "setID": { "@id": "https://your-domain.com/terms#setId" },       
+        "setId": { "@id": "https://your-domain.com/terms#setId" },       
         "asset": {
           "@id": "https://your-domain.com/terms#AssetDetails",
           "@type": "@id",
