@@ -44,7 +44,9 @@
             "colour": { "@id": "https://your-domain.com/terms#colour" },
             "metal": { "@id": "https://your-domain.com/terms#metal" },
             "hallmark": { "@id": "https://your-domain.com/terms#hallmark" },
-            "labCertificate": { "@id": "https://your-domain.com/terms#labCertificate" }
+            "labCertificate": { "@id": "https://your-domain.com/terms#labCertificate" },
+             "itemNumber": { "@id": "https://your-domain.com/terms#itemNumberOrSku" },
+            "distinguishingCharacteristics": {"@id": "https://your-domain.com/terms#distinguishingCharacteristics"}
           }
         }
       }
