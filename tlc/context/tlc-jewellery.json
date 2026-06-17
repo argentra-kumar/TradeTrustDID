@@ -11,14 +11,7 @@
         "client": { "@id": "https://your-domain.com/terms#client" },
         "category": { "@id": "https://your-domain.com/terms#category" },
     
-        "asset": {
-          "@id": "https://your-domain.com/terms#AssetDetails",
-          "@type": "@id",
-          "@context": {
-            "@protected": true,
-            "stoneType": { "@id": "https://your-domain.com/terms#stoneType" }            
-          }
-        }
+       
       }
     }
   }
