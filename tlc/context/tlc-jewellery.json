@@ -10,7 +10,6 @@
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
         "client": { "@id": "https://your-domain.com/terms#client" },
         "category": { "@id": "https://your-domain.com/terms#category" }  
-       
       }
     }
   }
