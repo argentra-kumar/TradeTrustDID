@@ -11,27 +11,7 @@
         "client": { "@id": "https://your-domain.com/terms#client" },
         "category": { "@id": "https://your-domain.com/terms#category" },
         "title": { "@id": "https://your-domain.com/terms#title" },
-        "brand": { "@id": "https://your-domain.com/terms#brand" },
-        "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
-        "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
-        "purchasePriceCurrency": {"@id": "https://your-domain.com/terms#purchasePriceAndCurrency"},
-        "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
-        "valuationDate": { "@id": "https://your-domain.com/terms#valuationDate" },
-        "valuationSource": { "@id": "https://your-domain.com/terms#valuationSource" },
-        "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" },
-        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" },
-        "condition": { "@id": "https://your-domain.com/terms#condition" },
-        "storageLocation": { "@id": "https://your-domain.com/terms#storageLocation" },
-        "custodyType": { "@id": "https://your-domain.com/terms#custodyType" },
-        "invoiceNumber": { "@id": "https://your-domain.com/terms#invoiceNumber" },
-        "comments": { "@id": "https://your-domain.com/terms#comments" },
-        "boxReceiptLocation": { "@id": "https://your-domain.com/terms#boxReceiptLocation" },
-        "boxReceiptMatchingCode": { "@id": "https://your-domain.com/terms#boxReceiptMatchingCode" },
-        "createdAtBy": { "@id": "https://your-domain.com/terms#createdAtAndBy" },
-        "lastUpdatedAtBy": { "@id": "https://your-domain.com/terms#lastUpdatedAtAndBy" },
-        "lastReviewedAtBy": { "@id": "https://your-domain.com/terms#lastReviewedAtAndBy" },
-        "lifecycleStatus": { "@id": "https://your-domain.com/terms#lifecycleStatus" },
-        "setId": { "@id": "https://your-domain.com/terms#setId" }
+        "brand": { "@id": "https://your-domain.com/terms#brand" }    
       }
     }
   }
