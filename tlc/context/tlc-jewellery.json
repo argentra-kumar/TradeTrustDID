@@ -10,6 +10,8 @@
         "assetId": { "@id": "https://your-domain.com/terms#assetId" },
         "client": { "@id": "https://your-domain.com/terms#client" },
         "category": { "@id": "https://your-domain.com/terms#category" },
+        "title": { "@id": "https://your-domain.com/terms#title" },
+        "brand": { "@id": "https://your-domain.com/terms#brand" },
         "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
         "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
         "purchasePriceCurrency": {"@id": "https://your-domain.com/terms#purchasePriceAndCurrency"},
