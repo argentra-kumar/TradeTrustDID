@@ -14,7 +14,11 @@
         "brand": { "@id": "https://your-domain.com/terms#brand" },
          "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
         "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
-        "purchasePriceCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" }
+        "purchasePriceCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" },
+        "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
+        "valuationDate": { "@id": "https://your-domain.com/terms#valuationDate" },
+        "valuationSource": { "@id": "https://your-domain.com/terms#valuationSource" },
+        "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" }
       }
     }
   }
