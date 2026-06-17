@@ -16,7 +16,8 @@
         "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
         "purchasePriceCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" },
         "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
-        "valuationDate": { "@id": "https://your-domain.com/terms#valuationDate" }
+        "valuationDate": { "@id": "https://your-domain.com/terms#valuationDate" },
+        "valuationSource": { "@id": "https://your-domain.com/terms#valuationSource" }
       }
     }
   }
