@@ -33,10 +33,7 @@
         "lastUpdatedAtBy": { "@id": "https://your-domain.com/terms#lastUpdatedAtAndBy" },
         "lastReviewedAtBy": { "@id": "https://your-domain.com/terms#lastReviewedAtAndBy" },
         "lifecycleStatus": { "@id": "https://your-domain.com/terms#lifecycleStatus" },
-        "setID": { "@id": "https://your-domain.com/terms#setId" },
-        "remarks": {
-          "@id": "https://your-domain.com/terms#remarks"
-        },
+        "setID": { "@id": "https://your-domain.com/terms#setId" },       
         "asset": {
           "@id": "https://your-domain.com/terms#AssetDetails",
           "@type": "@id",
