@@ -27,17 +27,16 @@
         },
         "acquiredFrom": {
           "@id": "https://your-domain.com/terms#acquiredFrom"
-        },
-
-        
+        },        
         "authenticationStatus": {
           "@id": "https://your-domain.com/terms#authenticationStatus"
         },
         "verificationStatus": {
           "@id": "https://your-domain.com/terms#verificationStatus"
-        }
-
-    
+        },
+          "purchasePrice": {
+          "@id": "https://your-domain.com/terms#purchasePrice"
+        },
       }
     }
   }
