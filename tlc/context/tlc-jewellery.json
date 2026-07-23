@@ -29,56 +29,15 @@
           "@id": "https://your-domain.com/terms#acquiredFrom"
         },
 
-        "purchasePrice": {
-          "@id": "https://your-domain.com/terms#purchasePrice"
-        },
-
-        "valuation": {
-          "@id": "https://your-domain.com/terms#valuation"
-        },
-
+        
         "authenticationStatus": {
           "@id": "https://your-domain.com/terms#authenticationStatus"
         },
         "verificationStatus": {
           "@id": "https://your-domain.com/terms#verificationStatus"
-        },
-
-        "jewellery": {
-          "@id": "https://your-domain.com/terms#JewelleryDetails",
-          "@context": {
-            "stoneType": {
-              "@id": "https://your-domain.com/terms#stoneType"
-            },
-            "carat": {
-              "@id": "https://your-domain.com/terms#carat"
-            },
-            "cut": {
-              "@id": "https://your-domain.com/terms#cut"
-            },
-            "clarity": {
-              "@id": "https://your-domain.com/terms#clarity"
-            },
-            "colour": {
-              "@id": "https://your-domain.com/terms#colour"
-            },
-            "metal": {
-              "@id": "https://your-domain.com/terms#metal"
-            },
-            "hallmark": {
-              "@id": "https://your-domain.com/terms#hallmark"
-            },
-            "labCertificate": {
-              "@id": "https://your-domain.com/terms#labCertificate"
-            },
-            "itemNumber": {
-              "@id": "https://your-domain.com/terms#itemNumber"
-            },
-            "distinguishingCharacteristics": {
-              "@id": "https://your-domain.com/terms#distinguishingCharacteristics"
-            }
-          }
         }
+
+    
       }
     }
   }
