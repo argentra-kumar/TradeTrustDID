@@ -44,7 +44,41 @@
                   "@id": "https://your-domain.com/terms#currency"
                 }
             }
-        }
+        },
+        "valuation": {
+              "@id": "https://your-domain.com/terms#valuation",
+              "@context": {
+                "value": {
+                  "@id": "https://your-domain.com/terms#value"
+                },
+                "currency": {
+                  "@id": "https://your-domain.com/terms#currency"
+                },
+                "valuationType": {
+                  "@id": "https://your-domain.com/terms#valuationType"
+                },
+                "valuedAt": {
+                  "@id": "https://your-domain.com/terms#valuedAt"
+                },
+                "valuerName": {
+                  "@id": "https://your-domain.com/terms#valuerName"
+                },
+                "valuerCompany": {
+                  "@id": "https://your-domain.com/terms#valuerCompany"
+                }
+                }
+        },
+        "condition": {
+              "@id": "https://your-domain.com/terms#condition",
+              "@context": {
+                "rating": {
+                  "@id": "https://your-domain.com/terms#rating"
+                },
+                "notes": {
+                  "@id": "https://your-domain.com/terms#notes"
+                }
+              }
+      },
       }
     }
   }
