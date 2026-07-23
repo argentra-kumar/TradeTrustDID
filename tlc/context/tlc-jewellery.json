@@ -1,4 +1,4 @@
-{
+{{
   "@context": {
     "@version": 1.1,
     "@protected": true,
@@ -35,16 +35,16 @@
           "@id": "https://your-domain.com/terms#verificationStatus"
         },
         "purchasePrice": {
-              "@id": "https://your-domain.com/terms#purchasePrice",
-              "@context": {
+           "@id": "https://your-domain.com/terms#purchasePrice",
+           "@context": {
                 "amount": {
                   "@id": "https://your-domain.com/terms#amount"
                 },
                 "currency": {
                   "@id": "https://your-domain.com/terms#currency"
                 }
-              }
             }
+        }
       }
     }
   }
