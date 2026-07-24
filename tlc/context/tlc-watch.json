@@ -7,32 +7,94 @@
       "@type": "@id",
       "@context": {
         "@protected": true,
-        "assetId": { "@id": "https://your-domain.com/terms#assetId" },
-        "client": { "@id": "https://your-domain.com/terms#client" },
-        "category": { "@id": "https://your-domain.com/terms#category" },
-        "title": { "@id": "https://your-domain.com/terms#title" },
-        "brand": { "@id": "https://your-domain.com/terms#brand" },
-        "acquiredDate": { "@id": "https://your-domain.com/terms#acquiredDate" },
-        "acquiredFrom": { "@id": "https://your-domain.com/terms#acquiredFrom" },
-        "purchasePriceCurrency": { "@id": "https://your-domain.com/terms#purchasePriceAndCurrency" },
-        "currentValuation": { "@id": "https://your-domain.com/terms#currentValuation" },
-        "valuationDate": { "@id": "https://your-domain.com/terms#valuationDate" },
-        "valuationSource": { "@id": "https://your-domain.com/terms#valuationSource" },
-        "authenticationStatus": { "@id": "https://your-domain.com/terms#authenticationStatus" },
-        "verificationStatus": { "@id": "https://your-domain.com/terms#verificationStatus" },
-        "condition": { "@id": "https://your-domain.com/terms#condition" },
-        "storageLocation": { "@id": "https://your-domain.com/terms#storageLocation" },
-        "custodyType": { "@id": "https://your-domain.com/terms#custodyType" },
-        "invoiceNumber": { "@id": "https://your-domain.com/terms#invoiceNumber" },
-        "comments": { "@id": "https://your-domain.com/terms#comments" },
-        "boxReceiptLocation": { "@id": "https://your-domain.com/terms#boxReceiptLocation" },
-        "boxReceiptMatchingCode": { "@id": "https://your-domain.com/terms#boxReceiptMatchingCode" },
-        "createdAtBy": { "@id": "https://your-domain.com/terms#createdAtAndBy" },
-        "lastUpdatedAtBy": { "@id": "https://your-domain.com/terms#lastUpdatedAtAndBy" },
-        "lastReviewedAtBy": { "@id": "https://your-domain.com/terms#lastReviewedAtAndBy" },
-        "lifecycleStatus": { "@id": "https://your-domain.com/terms#lifecycleStatus" },
-        "setId": { "@id": "https://your-domain.com/terms#setId" },
-        "asset": {
+      "assetId": {
+					"@id": "https://your-domain.com/terms#assetId"
+				},
+				"categoryCode": {
+					"@id": "https://your-domain.com/terms#categoryCode"
+				},
+				"category": {
+					"@id": "https://your-domain.com/terms#category"
+				},
+				"title": {
+					"@id": "https://your-domain.com/terms#title"
+				},
+				"brand": {
+					"@id": "https://your-domain.com/terms#brand"
+				},
+				"acquiredDate": {
+					"@id": "https://your-domain.com/terms#acquiredDate"
+				},
+				"acquiredFrom": {
+					"@id": "https://your-domain.com/terms#acquiredFrom"
+				},
+				"authenticationStatus": {
+					"@id": "https://your-domain.com/terms#authenticationStatus"
+				},
+				"verificationStatus": {
+					"@id": "https://your-domain.com/terms#verificationStatus"
+				},
+				"purchasePrice": {
+					"@id": "https://your-domain.com/terms#purchasePrice",
+					"@context": {
+						"amount": {
+							"@id": "https://your-domain.com/terms#amount"
+						},
+						"currency": {
+							"@id": "https://your-domain.com/terms#currency"
+						}
+					}
+				},
+				"valuation": {
+					"@id": "https://your-domain.com/terms#valuation",
+					"@context": {
+						"value": {
+							"@id": "https://your-domain.com/terms#value"
+						},
+						"currency": {
+							"@id": "https://your-domain.com/terms#currency"
+						},
+						"valuationType": {
+							"@id": "https://your-domain.com/terms#valuationType"
+						},
+						"valuedAt": {
+							"@id": "https://your-domain.com/terms#valuedAt"
+						},
+						"valuerName": {
+							"@id": "https://your-domain.com/terms#valuerName"
+						},
+						"valuerCompany": {
+							"@id": "https://your-domain.com/terms#valuerCompany"
+						}
+					}
+				},
+				"condition": {
+					"@id": "https://your-domain.com/terms#condition",
+					"@context": {
+						"rating": {
+							"@id": "https://your-domain.com/terms#rating"
+						},
+						"notes": {
+							"@id": "https://your-domain.com/terms#notes"
+						}
+					}
+				},
+				"photos": {
+					"@id": "https://your-domain.com/terms#photos",
+					"@container": "@set",
+					"@context": {
+						"photoType": {
+							"@id": "https://your-domain.com/terms#photoType"
+						},
+						"mediaType": {
+							"@id": "https://your-domain.com/terms#mediaType"
+						},
+						"content": {
+							"@id": "https://your-domain.com/terms#content"
+						}
+					}
+				},
+        "watch": {
           "@id": "https://your-domain.com/terms#WatchAssetDetails",
           "@type": "@id",
           "@context": {
@@ -40,9 +102,9 @@
             "referenceNumber": {"@id": "https://your-domain.com/terms#referenceNumber" },
             "serialNumber": { "@id": "https://your-domain.com/terms#serialNumber" },
             "movementType": {"@id": "https://your-domain.com/terms#movementType" },
-            "caseSize": {"@id": "https://your-domain.com/terms#caseSize"},
+            "caseSizeMm": {"@id": "https://your-domain.com/terms#caseSize"},
             "material": { "@id": "https://your-domain.com/terms#material" },
-            "boxPapersStatus": { "@id": "https://your-domain.com/terms#boxPapersStatus" },
+            "boxAndPapersStatus": { "@id": "https://your-domain.com/terms#boxPapersStatus" },
             "distinguishingCharacteristics": { "@id": "https://your-domain.com/terms#distinguishingCharacteristics" }
           }
         }
