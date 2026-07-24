@@ -79,6 +79,21 @@
                 }
               }
       },
+        "photos": {
+  "@id": "https://your-domain.com/terms#photos",
+  "@container": "@set",
+  "@context": {
+    "photoType": {
+      "@id": "https://your-domain.com/terms#photoType"
+    },
+    "mediaType": {
+      "@id": "https://your-domain.com/terms#mediaType"
+    },
+    "content": {
+      "@id": "https://your-domain.com/terms#content"
+    }
+  }
+},
             "jewellery": {
           "@id": "https://your-domain.com/terms#AssetDetails",
           "@type": "@id",
