@@ -1,13 +1,13 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "@protected": true,
-    "Handbags": {
-      "@id": "https://your-domain.com/terms#JewelleryAsset",
-      "@type": "@id",
-      "@context": {
-        "@protected": true,
-      "assetId": {
+	"@context": {
+		"@version": 1.1,
+		"@protected": true,
+		"Handbags": {
+			"@id": "https://your-domain.com/terms#JewelleryAsset",
+			"@type": "@id",
+			"@context": {
+				"@protected": true,
+				"assetId": {
 					"@id": "https://your-domain.com/terms#assetId"
 				},
 				"categoryCode": {
@@ -94,19 +94,37 @@
 						}
 					}
 				},
-        "handbag": {
-          "@id": "https://your-domain.com/terms#WatchAssetDetails",
-          "@type": "@id",
-          "@context": {
-            "@protected": true,
-               "model": { "@id": "https://your-domain.com/terms#model" },
-               "material": { "@id": "https://your-domain.com/terms#material" },
-               "hardware": { "@id": "https://your-domain.com/terms#hardware" },
-               "interiorCondition": { "@id": "https://your-domain.com/terms#interiorCondition" },
-               "packagingStatus": { "@id": "https://your-domain.com/terms#dustBagAndPackagingStatus" }
-          }
-        }
-      }
-    }
-  }
+				"handbag": {
+					"@id": "https://your-domain.com/terms#WatchAssetDetails",
+					"@type": "@id",
+					"@context": {
+						"@protected": true,
+						"model": {
+							"@id": "https://your-domain.com/terms#model"
+						},
+						"material": {
+							"@id": "https://your-domain.com/terms#material"
+						},
+						"hardware": {
+							"@id": "https://your-domain.com/terms#hardware"
+						},
+						"interiorCondition": {
+							"@id": "https://your-domain.com/terms#interiorCondition",
+							"@context": {
+								"rating": {
+									"@id": "https://your-domain.com/terms#rating"
+								},
+								"notes": {
+									"@id": "https://your-domain.com/terms#notes"
+								}
+							}
+						},
+						"packagingStatus": {
+							"@id": "https://your-domain.com/terms#dustBagAndPackagingStatus"
+						}
+					}
+				}
+			}
+		}
+	}
 }
