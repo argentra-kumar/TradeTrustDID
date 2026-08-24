@@ -31,15 +31,24 @@
 				"authenticationStatus": {
 					"@id": "https://your-domain.com/terms#authenticationStatus"
 				},
+				  "authenticationStatusLabel": {
+		          "@id": "https://your-domain.com/terms#authenticationStatusLabel"
+		        },
 				"verificationStatus": {
 					"@id": "https://your-domain.com/terms#verificationStatus"
 				},
+				   "verificationStatusLabel": {
+		          "@id": "https://your-domain.com/terms#verificationStatusLabel"
+		        },
 				"purchasePrice": {
 					"@id": "https://your-domain.com/terms#purchasePrice",
 					"@context": {
 						"amount": {
 							"@id": "https://your-domain.com/terms#amount"
 						},
+						  "amountLabel": {
+				              "@id": "https://your-domain.com/terms#amountLabel"
+				        },
 						"currency": {
 							"@id": "https://your-domain.com/terms#currency"
 						}
@@ -73,6 +82,9 @@
 						"carat": {
 							"@id": "https://your-domain.com/terms#carat"
 						},
+						  "caratLabel": {
+				              "@id": "https://your-domain.com/terms#caratLabel"
+				        },
 						"cut": {
 							"@id": "https://your-domain.com/terms#cut"
 						},
