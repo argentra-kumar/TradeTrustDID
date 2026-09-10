@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "BillOfLadingCarrier": {
+      "@id": "https://example.com/terms#BillOfLadingCarrier",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "blNumber": {
+          "@id": "https://example.com/terms#blNumber"
+        }
+      }
+    }
+  }
+}
