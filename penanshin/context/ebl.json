@@ -13,7 +13,7 @@
         "blNumber": {
           "@id": "https://example.com/terms#blNumber"
         },
-         "carrierAddress": {
+         "shipperAddress": {
           "@id": "https://example.com/terms#carrierAddress",
           "@container": "@set"
         },
