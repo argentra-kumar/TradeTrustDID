@@ -16,6 +16,14 @@
          "carrierAddress": {
           "@id": "https://example.com/terms#carrierAddress",
           "@container": "@set"
+        },
+        "consigneeAddress": {
+          "@id": "https://example.com/terms#consigneeAddress",
+          "@container": "@list"
+        },
+        "notifyPartyAddress": {
+          "@id": "https://example.com/terms#notifyPartyAddress",
+          "@container": "@list"
         }
 
       
