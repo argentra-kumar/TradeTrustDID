@@ -19,11 +19,11 @@
         },
         "consigneeAddress": {
           "@id": "https://example.com/terms#consigneeAddress",
-          "@container": "@list"
+          "@container": "@set"
         },
         "notifyPartyAddress": {
           "@id": "https://example.com/terms#notifyPartyAddress",
-          "@container": "@list"
+          "@container": "@set"
         }
 
       
