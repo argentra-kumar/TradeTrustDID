@@ -24,6 +24,34 @@
         "notifyPartyAddress": {
           "@id": "https://example.com/terms#notifyPartyAddress",
           "@container": "@set"
+        },
+         "deliveryAgentAddress": {
+          "@id": "https://example.com/terms#deliveryAgentAddress",
+          "@container": "@set"
+        },
+
+        "telephone": {
+          "@id": "https://example.com/terms#telephone"
+        },
+
+        "fax": {
+          "@id": "https://example.com/terms#fax"
+        },
+
+        "dateOfIssue": {
+          "@id": "https://example.com/terms#dateOfIssue"
+        },
+
+        "placeOfIssue": {
+          "@id": "https://example.com/terms#placeOfIssue"
+        },
+
+        "shipmentOnBoardDate": {
+          "@id": "https://example.com/terms#shipmentOnBoardDate"
+        },
+
+        "shipmentStatus": {
+          "@id": "https://example.com/terms#shipmentStatus"
         }
 
       
