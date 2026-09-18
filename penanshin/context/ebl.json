@@ -12,6 +12,10 @@
 
         "blNumber": {
           "@id": "https://example.com/terms#blNumber"
+        },
+         "carrierAddress": {
+          "@id": "https://example.com/terms#carrierAddress",
+          "@container": "@set"
         }
 
       
