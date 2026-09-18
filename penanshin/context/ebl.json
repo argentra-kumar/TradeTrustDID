@@ -1,1 +1,21 @@
 
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "PenanshinEBL": {
+      "@id": "https://example.com/terms#PCLBillOfLadingCarrier",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+
+        "blNumber": {
+          "@id": "https://example.com/terms#blNumber"
+        }
+
+      
+      }
+    }
+  }
+}
