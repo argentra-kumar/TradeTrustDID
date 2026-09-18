@@ -25,6 +25,37 @@
           "@id": "https://example.com/terms#notifyPartyAddress",
           "@container": "@set"
         },
+        "preCarriageBy": {
+          "@id": "https://example.com/terms#preCarriageBy"
+        },
+
+        "placeOfReceipt": {
+          "@id": "https://example.com/terms#placeOfReceipt"
+        },
+
+        "vesselVoyageNo": {
+          "@id": "https://example.com/terms#vesselVoyageNo"
+        },
+
+        "portOfLoading": {
+          "@id": "https://example.com/terms#portOfLoading"
+        },
+
+        "portOfDischarge": {
+          "@id": "https://example.com/terms#portOfDischarge"
+        },
+
+        "placeOfDelivery": {
+          "@id": "https://example.com/terms#placeOfDelivery"
+        },
+
+        "freightPayableAt": {
+          "@id": "https://example.com/terms#freightPayableAt"
+        },
+
+        "numberOfOriginalBills": {
+          "@id": "https://example.com/terms#numberOfOriginalBills"
+        },
          "deliveryAgentAddress": {
           "@id": "https://example.com/terms#deliveryAgentAddress",
           "@container": "@set"
