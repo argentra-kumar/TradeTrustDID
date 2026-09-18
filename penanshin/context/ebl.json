@@ -56,6 +56,55 @@
         "numberOfOriginalBills": {
           "@id": "https://example.com/terms#numberOfOriginalBills"
         },
+        "packages": {
+  "@id": "https://example.com/terms#packages",
+  "@context": {
+    "numberOfPackages": {
+      "@id": "https://example.com/terms#numberOfPackages"
+    },
+    "packageType": {
+      "@id": "https://example.com/terms#packageType"
+    },
+    "grossWeight": {
+      "@id": "https://example.com/terms#grossWeight"
+    },
+    "measurement": {
+      "@id": "https://example.com/terms#measurement"
+    }
+  }
+},
+        "goodsDescriptioncol1row1": {
+  "@id": "https://example.com/terms#goodsDescriptioncol1row1",
+  "@container": "@set"
+},
+"goodsDescriptioncol1row2": {
+  "@id": "https://example.com/terms#goodsDescriptioncol1row2",
+  "@container": "@set"
+},
+"goodsDescriptioncol1row3": {
+  "@id": "https://example.com/terms#goodsDescriptioncol1row3",
+  "@container": "@set"
+},
+"goodsDescriptioncol1row4": {
+  "@id": "https://example.com/terms#goodsDescriptioncol1row4",
+  "@container": "@set"
+},
+"goodsDescriptioncol2row1": {
+  "@id": "https://example.com/terms#goodsDescriptioncol2row1",
+  "@container": "@set"
+},
+"goodsDescriptioncol2row2": {
+  "@id": "https://example.com/terms#goodsDescriptioncol2row2",
+  "@container": "@set"
+},
+"goodsDescriptioncol2row3": {
+  "@id": "https://example.com/terms#goodsDescriptioncol2row3",
+  "@container": "@set"
+},
+"goodsDescriptioncol2row4": {
+  "@id": "https://example.com/terms#goodsDescriptioncol2row4",
+  "@container": "@set"
+},
          "deliveryAgentAddress": {
           "@id": "https://example.com/terms#deliveryAgentAddress",
           "@container": "@set"
