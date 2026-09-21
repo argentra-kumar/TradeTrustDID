@@ -56,7 +56,7 @@
         "numberOfOriginalBills": {
           "@id": "https://example.com/terms#numberOfOriginalBills"
         },
-      "packages": {
+      "packages123": {
   "@id": "https://example.com/terms#packages",
   "@type": "@id",
   "@context": {
