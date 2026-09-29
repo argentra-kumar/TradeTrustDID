@@ -16,6 +16,9 @@
 				"category": {
 					"@id": "https://your-domain.com/terms#category"
 				},
+				"issueType": {
+       			    "@id": "https://your-domain.com/terms#issueType"
+      			},
 				"storageLocation": {
 		            "@id": "https://your-domain.com/terms#storageLocation"
 		        },
