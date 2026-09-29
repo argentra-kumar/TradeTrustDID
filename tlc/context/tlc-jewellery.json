@@ -16,6 +16,13 @@
 				"category": {
 					"@id": "https://your-domain.com/terms#category"
 				},
+				"storageLocation": {
+		            "@id": "https://your-domain.com/terms#storageLocation"
+		        },
+		
+		        "dateOfStorage": {
+		            "@id": "https://your-domain.com/terms#dateOfStorage"
+		        },
 				"title": {
 					"@id": "https://your-domain.com/terms#title"
 				},
