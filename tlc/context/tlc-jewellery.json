@@ -38,11 +38,11 @@
 				"acquiredFrom": {
 					"@id": "https://your-domain.com/terms#acquiredFrom"
 				},
-				"authenticationStatus": {
-					"@id": "https://your-domain.com/terms#authenticationStatus"
+				"supportingDocumentation": {
+					"@id": "https://your-domain.com/terms#supportingDocumentation"
 				},				
-				"verificationStatus": {
-					"@id": "https://your-domain.com/terms#verificationStatus"
+				"authenticatedBy": {
+					"@id": "https://your-domain.com/terms#authenticatedBy"
 				},			
 				"purchasePrice": {
 					"@id": "https://your-domain.com/terms#purchasePrice",
