@@ -16,6 +16,15 @@
 				"category": {
 					"@id": "https://your-domain.com/terms#category"
 				},
+		       "issueType": {
+       			    "@id": "https://your-domain.com/terms#issueType"
+      			},
+				"storageLocation": {
+		            "@id": "https://your-domain.com/terms#storageLocation"
+		        },		
+		        "dateOfStorage": {
+		            "@id": "https://your-domain.com/terms#dateOfStorage"
+		        },
 				"title": {
 					"@id": "https://your-domain.com/terms#title"
 				},
@@ -28,11 +37,11 @@
 				"acquiredFrom": {
 					"@id": "https://your-domain.com/terms#acquiredFrom"
 				},
-				"authenticationStatus": {
-					"@id": "https://your-domain.com/terms#authenticationStatus"
+				"supportingDocumentation": {
+					"@id": "https://your-domain.com/terms#supportingDocumentation"
 				},				
-				"verificationStatus": {
-					"@id": "https://your-domain.com/terms#verificationStatus"
+				"authenticatedBy": {
+					"@id": "https://your-domain.com/terms#authenticatedBy"
 				},			
 				"purchasePrice": {
 					"@id": "https://your-domain.com/terms#purchasePrice",
